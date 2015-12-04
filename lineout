@@ -1,3 +1,0 @@
-#!/bin/bash
-
-arecord -f cd -D plughw:UA25 | aplay -f cd -D plughw:IQaudIODAC

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DEVICE_IN=UA25
+DEVICE_OUT=IQaudIODAC
+
+arecord -f cd -D plughw:$DEVICE_IN | aplay -f cd -D plughw:$DEVICE_OUT &

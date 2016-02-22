@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker stop `cat .cidfile`
+rm .cidfile

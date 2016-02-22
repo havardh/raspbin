@@ -1,0 +1,34 @@
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+ce328ba590a5c5e9a4edb60fb00f308c7dd51ded19c7990db7685f6d93011a07
+Error response from daemon: Cannot start container ce328ba590a5c5e9a4edb60fb00f308c7dd51ded19c7990db7685f6d93011a07: Bind for 0.0.0.0:4000 failed: port is already allocated
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+3a64ac41c1b9baf5e4a66edc818897644da561960c974f6318e2f9fb466cc882
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+8b66571e7a35b62d2597d575f98a428f3ea1735f516cf0db7d9c4d0b28165d81
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+5c24be4b945b4b4ca0497d43d322c46207021388ebc0654ce1cab35e364ba1b2
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+Container ID file found, make sure the other container isn't running or delete ./.cidfile
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+7c7936b314ab0353c0010f3a8696ecfa532a3d063e191bfe890d8e98dd166fcd
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+66ef031581e8782d0bbfb5e26c34bed19ddc2f03bddde7a915ab9c4c59e2c8dc
+Warning: '-cidfile' is deprecated, it will be replaced by '--cidfile' soon. See usage.
+WARNING: Your kernel does not support memory swappiness capabilities, memory swappiness discarded.
+b0f359402b3740e8e2ea1090b3c5c01138b5fa1d07507b0d5ffda5861befc4e1

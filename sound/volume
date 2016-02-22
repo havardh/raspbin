@@ -1,0 +1,3 @@
+#!/bin/bash
+
+amixer get Digital | /home/pi/bin/sound/volume2json

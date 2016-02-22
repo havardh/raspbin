@@ -1,0 +1,3 @@
+#/bin/bash
+
+amixer set Digital $1% | /home/pi/bin/sound/volume2json

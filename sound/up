@@ -1,3 +1,4 @@
 #!/bin/bash
+cd `dirname $0`
 
-amixer set Digital 1%+
+amixer set Digital 1%+ | ./volume2json

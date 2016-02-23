@@ -1,8 +1,8 @@
 #!/bin/bash
 cd `dirname $0`
 
-sudo sh -c "echo 22 > /sys/class/gpio/export"
-sudo sh -c "echo out >/sys/class/gpio/gpio22/direction"
-sudo sh -c "echo 1 >/sys/class/gpio/gpio22/value"
+sudo sh -c "echo 22 > /sys/class/gpio/export" >/dev/null 2>&1
+sudo sh -c "echo out >/sys/class/gpio/gpio22/direction" >/dev/null 2>&1
+sudo sh -c "echo 1 >/sys/class/gpio/gpio22/value" >/dev/null 2>&1
 
 ./ismute

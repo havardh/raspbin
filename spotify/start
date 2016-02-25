@@ -1,4 +1,5 @@
 #!/bin/bash
+cd `dirname $0`
 
 USERNAME=whoiby
 PASSWORD=`cat /home/pi/.pass`
@@ -8,4 +9,6 @@ for DEV in $(find /dev/snd -type c); do
   DEVICE_ARGS="$DEVICE_ARGS --device=$DEV:$DEV"
 done
 
-exec docker run -d -p 4000:4000 -cidfile=./.cidfile $DEVICE_ARGS spotify-connect-web --username $USERNAME --password $PASSWORD --name $NAME &>>./.log
+docker run -d -p 4000:4000 -cidfile=./.cidfile $DEVICE_ARGS spotify-connect-web --username $USERNAME --password $PASSWORD --name $NAME  &>>./.log 2>/dev/null
+
+./status

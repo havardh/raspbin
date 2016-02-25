@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PID=`cat .pidfile 2>/dev/null`
+
+if [ "$PID" ]; then
+  ISON=`ps aux | grep $PID`
+
+  if [ "$ISON" ]; then
+    echo "true"
+  else
+    echo "false"
+  fi
+else
+  echo "false"
+fi

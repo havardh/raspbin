@@ -6,3 +6,5 @@ PID=`cat .pidfile 2>/dev/null`
 if [ "$PID" ]; then
   kill -9 $PID & rm .pidfile
 fi
+
+./status

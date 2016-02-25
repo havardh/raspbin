@@ -10,3 +10,5 @@ PLAY="aplay -f cd -D plughw:$DEVICE_OUT"
 $REC 2>>.log </dev/null | $PLAY 2>>.log >>.log &
 
 echo `jobs -p` >.pidfile
+
+./status

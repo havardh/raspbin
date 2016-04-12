@@ -1,4 +1,6 @@
 #!/bin/bash
 cd `dirname $0`
 
-amixer get Digital | ./volume2json
+CARD=`./card`
+
+amixer -c $CARD get Digital | ./volume2json

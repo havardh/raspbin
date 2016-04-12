@@ -1,4 +1,5 @@
 #!/bin/bash
+cd `dirname $0`
 
 PID=`cat .pidfile 2>/dev/null`
 

@@ -1,3 +1,4 @@
 #!/bin/bash
+cd `dirname $0`
 
-mplayer -ao alsa:device=hw=0.0 http://lyd.nrk.no/nrk_radio_p13_aac_h </dev/null >/dev/null 2>&1 &
+./../start http://lyd.nrk.no/nrk_radio_p13_aac_h

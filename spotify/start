@@ -4,11 +4,13 @@ cd `dirname $0`
 USERNAME=whoiby
 PASSWORD=`cat /home/pi/.pass`
 NAME=PiNette
+DEVICE=hw:2,0
+MIXER=PCM
 
 for DEV in $(find /dev/snd -type c); do
   DEVICE_ARGS="$DEVICE_ARGS --device=$DEV:$DEV"
 done
 
-docker run -d -p 4000:4000 -cidfile=./.cidfile $DEVICE_ARGS spotify-connect-web --username $USERNAME --password $PASSWORD --name $NAME  &>>./.log 2>/dev/null
+docker run -d -p 4000:4000 -cidfile=./.cidfile $DEVICE_ARGS spotify-connect-web --username $USERNAME --password $PASSWORD --name $NAME --device $DEVICE  &>>./.log 2>/dev/null
 
 ./status

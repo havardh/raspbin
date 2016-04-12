@@ -1,0 +1,6 @@
+#!/bin/bash
+cd `dirname $0`
+
+CARD=`./../sound/card`
+
+mplayer -ao alsa:device=hw=$CARD.0 $1 </dev/null >/dev/null 2>&1 &

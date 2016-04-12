@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [[ `docker ps | grep spotify-connect-web` ]]; then
-  echo "true"
-else
-  echo "false"
-fi

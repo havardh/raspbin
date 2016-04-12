@@ -1,6 +1,14 @@
 #!/bin/bash
+cd `dirname $0`
 
 DEVICE_IN=UA25
 DEVICE_OUT=IQaudIODAC
 
-arecord -f cd -D plughw:$DEVICE_IN | aplay -f cd -D plughw:$DEVICE_OUT &
+REC="arecord -f cd -D plughw:$DEVICE_IN"
+PLAY="aplay -f cd -D plughw:$DEVICE_OUT"
+
+$REC 2>>.log </dev/null | $PLAY 2>>.log >>.log &
+
+echo `jobs -p` >.pidfile
+
+./status

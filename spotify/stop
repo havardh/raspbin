@@ -1,4 +1,11 @@
 #!/bin/bash
+cd `dirname $0`
 
-docker stop `cat .cidfile`
-rm .cidfile
+CID=`cat .cidfile 2>/dev/null`
+
+if [ "$CID" ]; then
+    docker stop $CID >/dev/null 2>/dev/null
+    rm .cidfile
+fi
+
+./status
